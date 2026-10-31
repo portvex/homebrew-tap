@@ -4,8 +4,8 @@
 class Tuidesk < Formula
   desc "KDE Plasma style desktop that runs inside a terminal"
   homepage "https://github.com/portvex/tuidesk"
-  url "https://github.com/portvex/tuidesk/releases/download/v0.1.0/tuidesk-0.1.0.tar.gz"
-  sha256 "a0131582358fb0e0d3a5beb058ca089fc563dae768cacce6cbeb0033073d36e3"
+  url "https://github.com/portvex/tuidesk/releases/download/v0.2.0/tuidesk-0.2.0.tar.gz"
+  sha256 "2a64bd4526d4965d389177e4e94273bd37f7a935ac126c61c58c5a9b49d9d6c0"
   license "MIT"
 
   depends_on "rust" => :build
