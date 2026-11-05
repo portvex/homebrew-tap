@@ -8,14 +8,14 @@ class Tuidesk < Formula
   license "MIT"
 
   if OS.mac?
-    url "https://github.com/portvex/tuidesk/releases/download/v0.2.1/tuidesk-0.2.1-macos-universal.tar.gz"
-    sha256 "d6a2e3619e3305ff03bf904b25cdf3f7e1ae89c9b53bfb618244a1e19ad262ec"
+    url "https://github.com/portvex/tuidesk/releases/download/v0.2.2/tuidesk-0.2.2-macos-universal.tar.gz"
+    sha256 "272b3cb52cf1d27697d563b304e4d0275c84566fd64333a02b1d2840e531eae8"
   elsif Hardware::CPU.arm?
-    url "https://github.com/portvex/tuidesk/releases/download/v0.2.1/tuidesk-0.2.1-aarch64-unknown-linux-musl.tar.gz"
-    sha256 "080a3081441a3647526063f079eab2c615eafb5328c21a6f3ecf30b9e4d9b137"
+    url "https://github.com/portvex/tuidesk/releases/download/v0.2.2/tuidesk-0.2.2-aarch64-unknown-linux-musl.tar.gz"
+    sha256 "c12a55dc568244cd8c3439c1750d6da3263564e81dcaf6dc1dc4ab3e4bc44942"
   else
-    url "https://github.com/portvex/tuidesk/releases/download/v0.2.1/tuidesk-0.2.1-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "8bbb437db778b25d37d5c7289fc642ea62a97022c0a60024d1ee103e9fab81de"
+    url "https://github.com/portvex/tuidesk/releases/download/v0.2.2/tuidesk-0.2.2-x86_64-unknown-linux-musl.tar.gz"
+    sha256 "972db4649ec9e68f0c8b8af86bda1630c7cf99f5ae9b0ea784e8d54d296610f3"
   end
 
   def install
