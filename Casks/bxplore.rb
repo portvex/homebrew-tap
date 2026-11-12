@@ -2,8 +2,8 @@
 # workflow fills in the version and the DMG's SHA-256 and attaches the result
 # to the release as bxplore.rb.
 cask "bxplore" do
-  version "0.1.1"
-  sha256 "a3deeb02b92a6d582747affb716cc994a8f959666d8de628581f127968b1dbf4"
+  version "0.1.2"
+  sha256 "c7d332820016927fd1fcd31cdfd1797775846cc11d65516214afd8040e8fb41f"
 
   url "https://github.com/portvex/bxplore/releases/download/v#{version}/bxplore-#{version}-macos-universal.dmg"
   name "bxplore"
