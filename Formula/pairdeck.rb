@@ -8,14 +8,14 @@ class Pairdeck < Formula
   license "MIT"
 
   if OS.mac?
-    url "https://github.com/portvex/pairdeck/releases/download/v0.1.1/pairdeck-0.1.1-universal-apple-darwin.tar.gz"
-    sha256 "a1b2edcd81b8087e710ab9e88a6df27f0a65ce06a69d96841996980acccb68cc"
+    url "https://github.com/portvex/pairdeck/releases/download/v0.1.2/pairdeck-0.1.2-universal-apple-darwin.tar.gz"
+    sha256 "25deec7c6d9d07529738a928eb21fd67ddb926664aa03e0dc52ec5d97f94d3ff"
   elsif Hardware::CPU.arm?
-    url "https://github.com/portvex/pairdeck/releases/download/v0.1.1/pairdeck-0.1.1-aarch64-unknown-linux-musl.tar.gz"
-    sha256 "8f961ab91ec0232cf0a92793fd2adde7a1fa427a2cfdf631df5ae4173c7c5107"
+    url "https://github.com/portvex/pairdeck/releases/download/v0.1.2/pairdeck-0.1.2-aarch64-unknown-linux-musl.tar.gz"
+    sha256 "00a3a41c6e5e4e560bc7d41cd6ea5ddc9b3081bc33d0bf73875e7068171fc04a"
   else
-    url "https://github.com/portvex/pairdeck/releases/download/v0.1.1/pairdeck-0.1.1-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "377649761a8455d723ce429c03af488648cc01ef71e4577382486fb5693df624"
+    url "https://github.com/portvex/pairdeck/releases/download/v0.1.2/pairdeck-0.1.2-x86_64-unknown-linux-musl.tar.gz"
+    sha256 "281d3de0e731e9db9193c82f0479934c31eecf7039a89bd9defec158311e887a"
   end
 
   def install
